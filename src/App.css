@@ -1,3 +1,7 @@
 .App {
 	text-align: center;
 }
+#button-submit:disabled {
+	cursor: not-allowed;
+	pointer-events: all !important;
+  }
